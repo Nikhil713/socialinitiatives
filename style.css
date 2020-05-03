@@ -2,21 +2,21 @@
 .nav {
     z-index: 1000;
     width: 100%;
-    height: 7vh;
+    height: auto;
     position: fixed;
     top: 0;
     line-height: 65px;
     text-align: center;
     -webkit-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
-    background: #fff;
-    box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-    
+    /* background: #fff; */
+    /* box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.2); */
+    padding: 1rem;
 }
 
 .highlight {
-    padding: 0;
-    /* background-color: #111; */
+    /* padding: 0; */
+    background-color: #111;
 }
 
 .nav__logo {
@@ -28,14 +28,17 @@
 
 .nav__logo a {
     text-decoration: none;
-    color: #00E676;
+    color: white;
     font-size: 2rem;
 }
 
 .nav__logo a:hover {
-    color: #01d262;
+    color: whitesmoke;
 }
 
+.nav-head {
+    display: inline;
+}
 .nav__wrapper {
     height: 65px;
     float: right;
@@ -61,13 +64,13 @@
 
 .nav__wrapper__list__item a {
     text-decoration: none;
-    color: #00E676;
+    color: white;
     line-height: 65px;
     font-size: 1.8rem;
 }
 
 .nav__wrapper__list__item a:hover {
-    color: #01d262;
+    color: whitesmoke;
 }
 
 .nav__toggle-btn {
@@ -108,7 +111,7 @@
     }
     .nav__wrapper__list__item {
         width: 100%;
-        text-align: right;
+        text-align: center;
     }
     .nav__wrapper__list__item a {
         text-align: center;
@@ -195,7 +198,7 @@
 }
 
 .nav__toggle-btn i {
-    background-color: #00E676;
+    background-color: white;
     border-radius: 2px;
     content: '';
     display: block;
@@ -377,27 +380,76 @@
 
 .reachout{
     width: 100%;
-    height: 93vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/selective-focus-photography-of-hand-1654698.jpg');
+    background-size: cover;
 }
 
-.reachout > p{
-    margin: 10rem;
-    font-size: 1vw !important;
+.reachout-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reachout-img > img{
+    max-width: 30vw;
+}
+
+.reachout-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 0rem 0rem 0rem;
+    padding: 0rem 40rem;
+    color: white;
+    font-size: 1.5vw !important;
+    text-align: center;
 }
 
   /* Donate */
 
 
 .donors{
-    margin-top: 10vh;
-    height: 80vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black;    */
 }
 
+.reg-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-img > img {
+    max-width: 15vw;
+}
+
+.reg-portal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.reg-portal > iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 .carosal-area {
     background-image: url("img/demopic.jpg");
     background-size: cover;
@@ -512,10 +564,10 @@
 }
 
 .wrapper section>h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     bottom: -13px;
     content: "";
-    height: 2px;
+    height: 1px;
     left: 48%;
     position: absolute;
     width: 75px;
@@ -536,7 +588,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .our_activity > p {
@@ -548,6 +599,8 @@
     margin: 100px 35px 0;
     padding: 40px 45px;
     position: relative;
+    height: 30rem;
+    cursor: pointer;
 }
 
 .our_activity .single-Promo .promo-icon {
@@ -604,23 +657,16 @@
     background: #fff;
 }
 
-.our_activity .single-Promo:hover>h2 a {
-    color: #01d262;
-}
+
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    background: #01d262;
-    color: #fff;
-}
-
-.our_activity .single-Promo:hover>h2::before {
-    background: #01d262;
+    background: black;
+    /* transition-delay: 1s; */
     color: #fff;
 }
 
 .donate_section {
-    background-image: url("img/donate-bg.jpg");
-    background-size: cover;
+    background-color: #575757;
 }
 
 .donate_section h4 {
@@ -706,6 +752,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10rem;
+    padding: 5rem;
+    box-shadow: -15px 20px 50px 15px #72727266;
+}
+
+.events_single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events_single > img {
+    border-radius: 50%;
+    max-width: 10vw;
 }
 
 .events_section_area .events_single {
@@ -744,6 +805,7 @@
 }
 
 .events_section_area .events_single h3 {
+    /* color: white; */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -753,7 +815,7 @@
 
 
 .events_section_area .events_single:hover h3 {
-    color: #01d262;
+    /* color: violet; */
     text-decoration: none;
 }
 
@@ -764,6 +826,10 @@
     font-weight: 400;
     line-height: 32px;
     text-align: center;
+}
+
+.container{
+    max-width: 100% !important;
 }
 
 .middle{
@@ -777,10 +843,11 @@
     margin: 5px;
     border-radius: 30%;
     box-shadow: 0 5px 15px -5px #00000070;
-    color: #01d262;
+    color: black;
     overflow: hidden;
     position: relative;
     text-align: center;
+    cursor: pointer;
   }
   .btn i{
     line-height: 30px;
@@ -796,7 +863,7 @@
     position: absolute;
     width: 120%;
     height: 120%;
-    background: #01d262;
+    background: black;
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
@@ -882,15 +949,6 @@
 }
 
 
-.donors {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 /* partners */
 
 .partners{
@@ -912,7 +970,7 @@
     margin: 6rem;
 }
 .partners-img > a > img {
-    max-width: 25rem;
+    max-width: 20rem;
 }
 
 .footer {

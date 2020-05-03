@@ -54,6 +54,10 @@
 
 @media only screen and (max-width: 767px) {
 
+    .nav-head{
+        display: none;
+    }
+
     .wrapper section>h2::before {
         display: none;
         }
@@ -76,13 +80,21 @@
     }
 
     .reachout{
-        height: auto;
-        padding: 1rem;
+        background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/reachout-mob.jpg');
+        background-size: cover;
     }
-    .reachout > p{
+    .reachout-img > img {
+        /* margin: 10rem; */
+        padding: 10rem 0rem;
+        max-width: 30rem;
+    }
+    .reachout-desc{
+        padding: 0rem;
         margin: 1rem;
-        font-size: 4vw !important;
+        font-size: 5vw !important;
+        text-align: center;
     }
+
     .carosal-area .text>h3 {
         margin-top: 40px;
     }
@@ -96,42 +108,30 @@
     br {
         display: none
     }
-    .donors .donors_input {
-        float: none;
+
+    .donors {
+        height: auto;
+    }
+
+    .reg-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reg-img >img{
+        max-width: 90vw;
+    }
+
+
+    .reg-portal {
+        height: auto;
+        width: 100vw;
+    }
+
+    .reg-portal > iframe {
         width: 100%;
-        padding: 10px;
-    }
-    .donors .donors_image {
-        float: left;
-        width: 100%;
-    }
-    .donors .donors_input h2,
-    .donors .donors_image h2 {
-        padding-top: 60px;
-    }
-    .donors .donors_input h4 select {
-        width: 100%;
-    }
-    .donate_section .progress-text {
-        width: 100%;
-    }
-    .donors .donors_input h2,
-    .donors .donors_image h2 {
-        padding-top: 20px;
-    }
-    .donate_section p {
-        text-align: justify;
-    }
-    .progress-text p.progress-top {
-        text-align: center;
-    }
-    .donors .donors_input h2,
-    .donors .donors_image h2 {
-        margin: 0px 0 50px;
-    }
-    .donors .donors_input p input {
-        margin-left: 5px;
-        margin-right: 5px;
     }
     .block-wrapper {
         margin-top: 30px;
@@ -157,20 +157,43 @@
         height: auto;
     }
     .events_section_area{
+        margin: 10rem 0rem;
         height: auto;
+    }
+    .events_section_area > h2{
+        margin: 4rem 0rem !important;
+    }
+    .events_single > img {
+        max-width: 50vw;
     }
     .our_activity {
         height: auto;
+        margin-top: 0rem;
+    }
+    .our_activity > h2 {
+        margin: 10rem 0rem 2rem 0rem !important;
     }
     .our_activity > p{
         padding: 2rem;
     }
 
+    .partners {
+        margin-bottom: 5rem;
+    }
     .partners-img{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        max-width: 50vw;
+    }
+
+    .partners-img > a {
+        margin:1rem;
+    }
+    .partners-img > a > img {
+        max-width: 15rem;
+    }
+    .seeds{
+        max-width: 10rem !important;
     }
 }
