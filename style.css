@@ -893,7 +893,7 @@
 /* partners */
 
 .partners{
-    border: solid;
+    /* border: solid; */
     display: flex;
     flex-direction: column;
     justify-content: center;
