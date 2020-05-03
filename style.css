@@ -563,6 +563,7 @@
     margin: 10px auto 38px;
     position: relative;
     width: -moz-fit-content;
+    text-align: center;
 }
 
 .our_activity .single-Promo h2::before {
