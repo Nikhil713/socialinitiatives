@@ -15,91 +15,177 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-              
-            <section class="header-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12 col-xs-12">
-                            <a href="#">
-                                <div class="main-logo">
-                                    <img src="img/main-logo.png" alt="">
-                                    <h2>Fundraiser</h2>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-7 col-sm-12 col-xs-12">
-                            <div class="menu">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#home">HOME</a></li>
-                                    <li><a href="#about">ABOUT US</a></li>
-                                  <li><a href="#">CONTACT</a></li>
-                                  <li><a href="#donate">DONATE</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </header>
-       <section class="carosal-area" >
 
+    <div class="wrapper">
+
+        <!-- NAVBAR BLOCK -->
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="#">REACH OUT</a>
+            </div>
+            <div id="mainListDiv" class="main_list nav__wrapper">
+                <ul class="navlinks nav__wrapper__list">
+                    <li class="nav__wrapper__list__item"><a href="#">Home</a></li>
+                    <li class="nav__wrapper__list__item"><a href="#donate">Donate</a></li>
+                    <li class="nav__wrapper__list__item"><a href="#events">Events</a></li>
+                    <li class="nav__wrapper__list__item"><a href="#about">About</a></li>
+                    <li class="nav__wrapper__list__item"><a href="#partners">Associations</a></li>
+                    <li class="nav__wrapper__list__item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger nav__toggle-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </nav>
+
+        <section id="home" class="reachout">
+            <h2>REACH OUT !</h2>
+            <p><strong>Reach Out!</strong> is an Online Fundraiser Event under the initiative of Excel 2020 in
+                association with SEEDS.<br> It presents an online platform that showcases eminent personalities from
+                varying fields of cinema, music,
+                art and much more.<br> Acknowledging the crucial need for social - distancing, the programmes will be
+                broadcasted through our Facebook live sessions.<br> The events shall commence from 13th May and extend
+                up to
+                16th May.<br> It will be a 40-minute programme that would begin by 4 p.m. with an expected audience of
+                over
+                500.<br> The tickets for Reach Out will remain open to all for purchase.<br><br> All donations and the
+                profits
+                raised from Reach Out will be forwarded to SEEDS, a non - profit organization reaching out to those
+                disproportionately impacted in the society.
+            </p>
+        </section>
+
+        <section class="donors" id="donate">
+            <h2>REGISTER</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="client owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="text">
-                                    <h3>Together We Can Overcome</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
-                                    
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>Help fight COVID-19</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
-                                    
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>Join the fight against COVID-19</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
-                                    
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>We make a living by what we get but we make a life by what we Give</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
-                                    
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>Make a difference >> Contribute</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        <iframe
+                            src="https://www.meraevents.com/ticketWidget?eventId=229931&ucode=organizer&wcode=9063CD-9063CD-333333-9063CD-&theme=1"
+                            width="100%" height="600px" style="border: none;"></iframe>
+
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="events" class="events_section_area">
+            <h2>SPEAKERS</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/event1.png" alt="image1" style="height: 240px;" style="width: 240px;">
+                            <div class="clear"></div>
+                            <h3>Arjjun Imbachi </h3>
+
+                            <div class="middle">
+                                <a class="btn" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/img_1.png" alt="image1" style="height: 240px;" style="width: 240px;">
+
+                            <div class="clear"></div>
+                            <h3>Prapti Elizabeth</h3>
+
+                            <div class="middle">
+                                <a class="btn" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/img_1.png" alt="image1" style="height: 240px;" style="width: 240px;">
+
+                            <div class="clear"></div>
+                            <h3>Masala Coffee</h3>
+
+                            <div class="middle">
+                                <a class="btn" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/img_2.png" alt="image3" style="height: 240px;" style="width: 240px;">
+
+                            <div class="clear"></div>
+                            <h3>K S Harisankar </h3>
+
+                            <div class="middle">
+                                <a class="btn" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a class="btn" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
         <section class="our_activity" id="about">
-            <h2>OUR ACTIVITY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
+            <h2>ABOUT US</h2>
+            <p>Excel comes around each year, but some parts of it stay active throughout the year. <br>One of those parts is
+                the Social Initiatives. <br>Through Excel, a lot of socially relevant initiatives are taken up and
+                implemented, keeping in mind the need to give back to the society. <br>Project Urja was one such initiative
+                which was aimed to provide the village of Uriyampetti with electricity.<br>Other than these, protection and
+                restoration of nature has been given great importance as well.
+            </p>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
@@ -108,7 +194,7 @@
                                 <i class="material-icons">near_me</i>
                             </div>
                             <h2><a href="#">Fundraising</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <p>Your cordial donation today takes us a step closer to that cherished tomorrow. </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
@@ -117,7 +203,7 @@
                                 <i class="material-icons">favorite</i>
                             </div>
                             <h2><a href="#">Volunteering</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <p>Help us Reach Out to those neglected</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
@@ -125,70 +211,108 @@
                             <div class="promo-icon">
                                 <i class="material-icons">dashboard</i>
                             </div>
-                            <h2><a href="#">Our Programs</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="donate_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 for-padding">
-                        <h4>URGENT CAUSE</h4>
-                        <h3>Our Aim</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <div class="progress-text">
-                            <p class="progress-top">50%</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
-                            </div>
-                            <p class="progress-left">Raised: $1200</p>
-                            <p class="progress-right">Goal: $2400</p>
-                        </div>
-                        <h2><a href="#donate">DONATE NOW</a></h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="events_section_area">
-            <h2>UPCOMING EVENTS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="img/event1.png" alt="image1">
-                           
-                            <div class="clear"></div>
-                            <h3>Event1</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="img/img_1.png" alt="image2">
-                            
-                            <h3>Event2</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="img/img_2.png" alt="image3">
-                            
-                            <h3>Event3</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <h2><a href="#">Social Causes</a></h2>
+                            <p>Structuring a happier world for you and them. </p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section class="donate_section" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 for-padding">
+
+                        <h3>Our Aim</h3>
+                        <p style="text-align: center;">Amidst the chaos and uncertainties of the prevailing Pandemic, there is a sizable faction of
+                            people that remain unfavoured and underprivileged. Reach Out is an initiative for that
+                            unfortunate faction wherein we associate with SEEDS, a non - profit organization committed
+                            to reaching out to those sectors of the society that go overlooked and unnoticed like
+                            orphanages or old age homes.
+                            In addition to rehabilitation for those in need, Reach Out also presents a platform for
+                            entertainment to the rest of us at home.
+                            As we persist in our combat against this overwhelming calamity, the duty of looking after
+                            our brethren lies with each and every one of us.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="carosal-area">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="text">
+                                    <h5></h5>
+                                    <h3>Together We Can Overcome</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h5></h5>
+                                    <h3>Help fight COVID-19</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h5></h5>
+                                    <h3>Join the fight against COVID-19</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h5></h5>
+                                    <h3>We make a living by what we get but we make a life by what we Give</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h5></h5>
+                                    <h3>Make a difference >> Contribute</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
         <div class="clear"></div>
-            
-        <section class="carosal_bottom">
+
+        <!-- <section class="carosal_bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -218,50 +342,89 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        
-        <section class="donors" id="donate">
+        <!-- <section class="footer_carosal">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <iframe src="https://www.meraevents.com/ticketWidget?eventId=229931&ucode=organizer&wcode=9063CD-9063CD-333333-9063CD-&theme=1" width="100%" height="600px" frameborder="0px" ></iframe>
-                       
+                        <div class="footer_carosal_icon owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="img/excel-2019.png" alt="" style="width: 80%;">
+                            </div>
+                            <div class="item">
+                                <img src="img/mec-logo-small.png" alt="">
+                            </div>
+
+
+                            <div class="item">
+                                <img src="img/seedslogo.png" alt="" style="width: 80%;">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <section class="partners" id="partners">
+            <h2>ASSOCIATIONS</h2>
+            <div class="partners-img">
+               <a href="https://excelmec.org/#/" target="blank"><img src="./img/excel-20.png" style="background-color: #00E676; border-radius: 500px;"></a>
+               <a href="https://www.mec.ac.in/" target="blank"><img src="./img/mec-logo-small.png"></a>
+               <a href="https://www.seedsindia.org/" target="blank"><img src="./img/seeds.jpg"></a>
+            </div>
+
         </section>
-        <footer class="footer">
+        <footer class="footer" id="contact">
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <div class="footer-charity-text">
-                           
+                            <h2>Contact Us</h2>
+                            <p>Feel free to send in your queries to us<br>
+                                Donate Now! and spread love <br>during these difficult times.</p>
                         </div>
                     </div>
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-4 col-sm-5">
+
                                 <div class="footer-text one">
-                                    
+                                    <img src="img/contacts.png"
+                                        style="border-radius: 30%;width: 50%;margin-bottom: 20%;">
+                                    <ul>
+                                        <li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL
+                                                2147, USA</a></li>
+                                        <li><a href="#"><i class="material-icons">email</i>dartthemes@gmail.com</a></li>
+                                        <li><a href="#"><i class="material-icons">call</i>+123456789</a></li>
+                                    </ul>
+
+
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-3">
-                                <div class="footer-text two">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
                                 <div class="footer-text one">
-                                   
+
+                                    <img src="img/contacts.png"
+                                        style="border-radius: 30%;width: 50%;margin-bottom: 20%;">
+                                    <ul>
+                                        <li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL
+                                                2147, USA</a></li>
+                                        <li><a href="#"><i class="material-icons">email</i>dartthemes@gmail.com</a></li>
+                                        <li><a href="#"><i class="material-icons">call</i>+123456789</a></li>
+                                    </ul>
+
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer_bottom">
-                <p>Copyright @ 2020 <a href="#">Excel</a></p>
+                <p></p>
             </div>
         </footer>
     </div>
@@ -277,7 +440,7 @@
         _gaq.push(['_setDomainName', 'jqueryscript.net']);
         _gaq.push(['_trackPageview']);
 
-        (function() {
+        (function () {
             var ga = document.createElement('script');
             ga.type = 'text/javascript';
             ga.async = true;
@@ -285,6 +448,34 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
+        $('.nav__toggle-btn').click(function () {
+            $(this).toggleClass('active');
+            console.log("Clicked menu button");
+            $("#mainListDiv").toggleClass("nav__wrapper--visible");
+            $("#mainListDiv").fadeIn();
+
+        });
+
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('highlight');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('highlight');
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
 </body>
 
