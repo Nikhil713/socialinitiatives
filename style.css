@@ -597,6 +597,9 @@
     align-items: center;
 }
 
+.our_activity > .container {
+    margin-bottom: 6rem;
+}
 .our_activity > p {
     font-size: 2vw;
 }
@@ -607,6 +610,7 @@
     padding: 40px 45px;
     position: relative;
     height: auto;
+    max-height: 250px;
     cursor: pointer;
 }
 
