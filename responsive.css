@@ -157,14 +157,14 @@
         height: auto;
     }
     .events_section_area{
-        margin: 10rem 0rem;
+        margin: 10rem 0rem 4rem 0rem;
         height: auto;
     }
     .events_section_area > h2{
         margin: 4rem 0rem !important;
     }
     .events_single > img {
-        max-width: 50vw;
+        max-width: 45vw;
     }
     .our_activity {
         height: auto;

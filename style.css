@@ -622,6 +622,7 @@
     width: 50%;
     opacity: 0.9;
 }
+
 .our_activity .single-Promo {
     border-radius: 7px;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
@@ -690,13 +691,31 @@
 
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    background: black;
+    /* background: black; */
     /* transition-delay: 1s; */
     color: #fff;
 }
 
+.our_activity .single-Promo:hover>.icon1 i {
+    /* background: black; */
+    /* transition-delay: 1s; */
+    color: blue;
+}
+
+.our_activity .single-Promo:hover>.icon2 i {
+    /* background: black; */
+    /* transition-delay: 1s; */
+    color: red;
+}
+
+.our_activity .single-Promo:hover>.icon3 i {
+    /* background: black; */
+    /* transition-delay: 1s; */
+    color: green;
+}
+
 .donate_section {
-    background-color: #575757;
+    background-color: #1f1e1e;
 }
 
 .donate_section h4 {
@@ -868,9 +887,8 @@
     width: 45px;
     height: 45px;
     /* background: #f1f1f1; */
-    margin: 20px 5px 5px 5px;
     border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
+    /* box-shadow: 0 5px 15px -5px #00000070; */
     color: black;
     overflow: hidden;
     position: relative;
@@ -879,7 +897,7 @@
   }
   .btn i{
     line-height: 30px;
-    font-size: 13px;
+    font-size: 20px;
     transition: 0.2s linear;
   }
   .btn:hover i{
@@ -1017,6 +1035,10 @@
     font-size: 0.9vw !important;
     text-align: center;
 }
+
+.footer-contact {
+    color: #cfd1d4 !important;
+}
 .footer .footer-charity-text {
     max-width: 345px;
 }
@@ -1053,7 +1075,7 @@
 
 .footer-text > img {
     height: 16rem;
-    width: 18rem;
+    width: 16rem;
     border-radius: 10px;
     margin-bottom: 20%;
 }
