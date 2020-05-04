@@ -196,4 +196,23 @@
     .seeds{
         max-width: 10rem !important;
     }
+
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .footer-text {
+        margin:5rem 2rem ;
+    }
+    .footer-text > img {
+        margin-bottom: 10px;
+        height: 15rem;
+        width: 15rem;
+    }
+    .footer-name{
+        font-size: 2rem !important;
+    }
+    .footer-details{
+        font-size: 1.8rem !important;
+    }
 }
