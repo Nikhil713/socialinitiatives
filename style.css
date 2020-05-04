@@ -609,7 +609,8 @@
     margin-bottom: 6rem;
 }
 .our_activity > p {
-    font-size: 2vw;
+    font-size: 20px !important;
+    width: 50%;
 }
 .our_activity .single-Promo {
     border-radius: 7px;
