@@ -771,9 +771,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10rem;
-    padding: 5rem;
-    box-shadow: -15px 20px 50px 15px #72727266;
 }
 
 .events_single {
