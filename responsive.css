@@ -194,7 +194,7 @@
         max-width: 15rem;
     }
     .seeds{
-        max-width: 10rem !important;
+        /* max-width: 10rem !important; */
     }
 
     .row{
