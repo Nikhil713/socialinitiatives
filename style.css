@@ -691,7 +691,7 @@
 
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    /* background: black; */
+    background: black;
     /* transition-delay: 1s; */
     color: #fff;
 }
@@ -699,19 +699,19 @@
 .our_activity .single-Promo:hover>.icon1 i {
     /* background: black; */
     /* transition-delay: 1s; */
-    color: blue;
+    /* color: blue; */
 }
 
 .our_activity .single-Promo:hover>.icon2 i {
     /* background: black; */
     /* transition-delay: 1s; */
-    color: red;
+    /* color: red; */
 }
 
 .our_activity .single-Promo:hover>.icon3 i {
     /* background: black; */
     /* transition-delay: 1s; */
-    color: green;
+    /* color: green; */
 }
 
 .donate_section {

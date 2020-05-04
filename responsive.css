@@ -111,6 +111,7 @@
 
     .donors {
         height: auto;
+        margin-bottom: 4rem;
     }
 
     .reg-body {
@@ -157,7 +158,7 @@
         height: auto;
     }
     .events_section_area{
-        margin: 10rem 0rem 4rem 0rem;
+        margin: 10rem 0rem;
         height: auto;
     }
     .events_section_area > h2{
