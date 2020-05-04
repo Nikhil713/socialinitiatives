@@ -195,6 +195,7 @@
     }
     .partners-img > a > img {
         max-width: 15rem;
+        margin-top: 0 !important;
     }
     .seeds{
         /* max-width: 10rem !important; */
