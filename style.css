@@ -151,6 +151,15 @@
 /* Small Devices, Tablets */
 
 @media screen and (max-width:768px) {
+    .middle > .btn{
+        background: white;
+        border: none;
+        box-shadow: none;
+    }
+
+    .middle > .btn > i {
+        font-size: 20px !important;
+    }
     .intro__align__title {
         font-size: 3.5rem;
         font-weight: lighter;
@@ -858,7 +867,7 @@
     display: inline-block;
     width: 45px;
     height: 45px;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     margin: 20px 5px 5px 5px;
     border-radius: 30%;
     box-shadow: 0 5px 15px -5px #00000070;
