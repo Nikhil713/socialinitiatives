@@ -1005,7 +1005,7 @@
 
 .footer .footer-charity-text h2 {
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     font-size: 25px;
     font-weight: 700;
     margin: 0 0 27px;
