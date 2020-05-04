@@ -158,7 +158,7 @@
         height: auto;
     }
     .events_section_area{
-        margin: 10rem 0rem;
+        padding-top:10rem;
         height: auto;
     }
     .events_section_area > h2{
