@@ -661,7 +661,7 @@
 .our_activity .single-Promo p {
     color: #3c354e;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
@@ -1041,8 +1041,8 @@
 }
 
 .footer-text > img {
-    height: 15rem;
-    width: 15rem;
+    height: 16rem;
+    width: 18rem;
     border-radius: 10px;
     margin-bottom: 20%;
 }
