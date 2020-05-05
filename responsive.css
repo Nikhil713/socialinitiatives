@@ -157,6 +157,9 @@
     .carosal_bottom {
         height: auto;
     }
+    .row2{
+        display: none;
+    }
     .events_section_area{
         padding-top:10rem;
         height: auto;
