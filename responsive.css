@@ -165,7 +165,7 @@
         margin: 4rem 0rem !important;
     }
     .events_single > img {
-        max-width: 45vw;
+        max-width: 30vw;
     }
     .our_activity {
         height: auto;
@@ -217,6 +217,6 @@
         font-size: 2rem !important;
     }
     .footer-details{
-        font-size: 1.8rem !important;
+        font-size: 15px !important;
     }
 }
