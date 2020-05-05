@@ -451,6 +451,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.reg-desc{
+    width: 30rem;
+    text-align: center;
+}
+
 .reg-img {
     height: 100%;
     display: flex;
