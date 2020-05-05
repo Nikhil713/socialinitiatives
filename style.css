@@ -445,7 +445,11 @@
     align-items: center;
     /* background-color: black;    */
 }
-
+.donate-text {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
 .reg-body{
     display: flex;
     justify-content: center;

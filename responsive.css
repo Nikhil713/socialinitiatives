@@ -114,6 +114,9 @@
         margin-bottom: 4rem;
     }
 
+    .donate-text {
+        padding: 0px 20px;
+    }
     .reg-body {
         display: flex;
         flex-direction: column;
