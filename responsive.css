@@ -173,6 +173,9 @@
     .events_single > img {
         max-width: 30vw;
     }
+    .events_single > h3 {
+        margin-top: 30px !important;
+    }
     .our_activity {
         height: auto;
         margin-top: 0rem;
